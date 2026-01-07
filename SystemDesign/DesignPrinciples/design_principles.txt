@@ -1,0 +1,7 @@
+SOLID PRINCIPLES
+
+1. S: single responsibility 
+2. O: open/closed
+3. L: liskov substituion principle
+4. I: interface segregation principle
+5. D: Dependency inversion principle
