@@ -1,13 +1,13 @@
-# SystemDesign
+## SystemDesign
 
-SOLID Principles
+## SOLID Principles
 
-## S: single responsibility
+# S: single responsibility
  
-## O: open/closed
+# O: open/closed
 
-## L: liskov substituion principle
+# L: liskov substituion principle
 
-## I: interface segregation principle
+# I: interface segregation principle
 
-## D: Dependency inversion principle
+# D: Dependency inversion principle
