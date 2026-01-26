@@ -8,9 +8,13 @@ class Application
     public:
 
         Application( const std::string& type)
-        {   
-            
+        {     
             serverInstance = factory.createBackendServer(type);
+
+            if (serverInstance == nullptr)
+            {
+                std::cout<<" server instance null"<<std::endl;
+            }
             serverInstance->connectServer("127.0.0.0", '8080');
         }
 

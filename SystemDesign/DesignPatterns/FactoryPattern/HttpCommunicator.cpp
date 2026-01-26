@@ -7,10 +7,10 @@
 #include <iostream>
 
 
-// HTTPCommunicator::HTTPCommunicator()
-// {
-//     std::cout<<"Http Init"<<std::endl;
-// }
+HTTPCommunicator::HTTPCommunicator()
+{
+    std::cout<<"Http communicator Init"<<std::endl;
+}
         
 void HTTPCommunicator::connectServer(const std::string& host, int port) {
             

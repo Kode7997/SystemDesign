@@ -8,7 +8,7 @@ class HTTPCommunicator : public BackendCommunicator {
         int socketfd = -1;
 
     public:
-        HTTPCommunicator() = default;
+        HTTPCommunicator();
         
         void connectServer(const std::string& host, int port);
         Response sendPostRequest(const Packet& pkt);

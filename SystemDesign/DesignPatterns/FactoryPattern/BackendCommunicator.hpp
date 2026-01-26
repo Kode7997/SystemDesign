@@ -38,7 +38,7 @@ class BackendCommunicator {
         
         virtual Response sendPostRequest(const Packet&) = 0;
         virtual void connectServer(const std::string& host, int port) = 0;
-        virtual void disconnect() = 0;
+        // virtual void disconnect() = 0;
 
         virtual ~BackendCommunicator() = default;
 };
